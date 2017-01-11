@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dingyueyuan_item">
+    <zhp.rssbook.CircleImageView
+        android:id="@+id/dingyueyuan_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:border_width="2dp"
+        app:border_color="#ccc"
+        />
+
+    <TextView
+        android:id="@+id/dingyueyuan_content"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/dingyueyuan_icon"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/unread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@id/dingyueyuan_content"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+</RelativeLayout>

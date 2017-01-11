@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@drawable/bottom_bar"
+    >
+
+    <LinearLayout
+        android:id='@+id/tab_unread'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageButton
+            android:id='@+id/tab_unread_img'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unread"
+            android:background="#00000000"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unread"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id='@+id/tab_diyueyuan'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageButton
+            android:id='@+id/tab_dingyueyuan_img'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dingyueyuan"
+            android:background="#00000000"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dingyuyuan"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id='@+id/tab_starpaper'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageButton
+            android:id='@+id/tab_starpaper_img'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star"
+            android:background="#00000000"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/save"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id='@+id/tab_hot'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageButton
+            android:id='@+id/tab_hot_img'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/square"
+            android:background="#00000000"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hot"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+</LinearLayout>

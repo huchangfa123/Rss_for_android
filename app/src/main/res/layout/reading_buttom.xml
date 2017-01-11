@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:id='@+id/front'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageButton
+            android:id='@+id/front_img'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_left"
+            android:background="#00000000"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id='@+id/star'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageButton
+            android:id='@+id/star_img'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star"
+            android:background="#00000000"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/favour"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id='@+id/zan'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageButton
+            android:id='@+id/zan_img'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/finger"
+            android:background="#00000000"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zan"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id='@+id/next'
+        android:layout_width='match_parent'
+        android:layout_height='match_parent'
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageButton
+            android:id='@+id/next_img'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_right"
+            android:background="#00000000"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
